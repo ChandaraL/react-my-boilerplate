@@ -1,47 +1,62 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+### https://raw.github.com/github/gitignore/0aeefb48c0ac885a516fb92f7f5bfd7e85ce7a37/Global/Emacs.gitignore
 
-# Folder config file
-Desktop.ini
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Org-mode
+.org-id-locations
+*_archive
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# flymake-mode
+*_flymake.*
 
-# Windows shortcuts
-*.lnk
+# eshell files
+/eshell/history
+/eshell/lastdir
 
-# =========================
-# Operating System Files
-# =========================
+# elpa packages
+/elpa/
 
-# OSX
-# =========================
+# reftex files
+*.rel
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# AUCTeX auto folder
+/auto/
 
-# Thumbnails
-._*
+# cask packages
+.cask/
+dist/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Flycheck
+flycheck_*.el
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# server auth directory
+/server/
+
+# projectiles files
+.projectile
+
+### https://raw.github.com/github/gitignore/0aeefb48c0ac885a516fb92f7f5bfd7e85ce7a37/Global/Vim.gitignore
+
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+node_modules/
+frontend-dist/
+*.log
+src/
